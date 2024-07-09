@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DiffieHellmanGroupConstructor } from 'crypto';
+import { HousingLocation } from '../housing-location';
 
 @Component({
   selector: 'app-housing-location',
@@ -9,5 +11,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./housing-location.component.css']
 })
 export class HousingLocationComponent {
-
+    @Input() housingLocation!: HousingLocation;
 }
