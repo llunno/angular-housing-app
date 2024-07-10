@@ -31,7 +31,10 @@
 				"formulahendry.auto-close-tag",
 				"abusaidm.html-snippets",
 				"ecmel.vscode-html-css",
-				"sidthesloth.html5-boilerplate"
+				"sidthesloth.html5-boilerplate",
+				"infinity1207.angular2-switcher",
+				"dannyconnell.split-html-attributes",
+				"esbenp.prettier-vscode"
 			]
 		}
     }
